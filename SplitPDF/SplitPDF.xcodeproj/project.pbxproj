@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1715B609365064E76F376E75 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49651DF70E1061B62C49EA36 /* PDFKit.framework */; };
+		5434BEF7E24EA59E194DC864 /* PDFSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCB2B5393195FF8C0354C7 /* PDFSplitter.swift */; };
+		7C8F42D596C40AECB0FE16E3 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819531A63B6F7CAA58E387C1 /* UserNotifications.framework */; };
+		82AB5BD97874C3E19B2BAF9B /* SplitPDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E5234F19D2E5ECB690DDD /* SplitPDFApp.swift */; };
+		FA6B615A2D4DCD6E8A95E9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F105CDFAAF89E5B3B9BAAB /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25AFA4E967173E5D608C56AE /* SplitPDF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitPDF.entitlements; sourceTree = "<group>"; };
+		2FBCB2B5393195FF8C0354C7 /* PDFSplitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSplitter.swift; sourceTree = "<group>"; };
+		30361A63820CD608498C0D22 /* SplitPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F105CDFAAF89E5B3B9BAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		413E5234F19D2E5ECB690DDD /* SplitPDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitPDFApp.swift; sourceTree = "<group>"; };
+		49651DF70E1061B62C49EA36 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		819531A63B6F7CAA58E387C1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		97CBE07422DAABA45FD08494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEBA7B8023E2CF4967CB905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1715B609365064E76F376E75 /* PDFKit.framework in Frameworks */,
+				7C8F42D596C40AECB0FE16E3 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A33AD827D623A100CAC716 = {
+			isa = PBXGroup;
+			children = (
+				65DF00353C1B86B49B28DE99 /* Shared */,
+				FEA7199CCDB5DAFDE9A6B351 /* SplitPDF */,
+				E87BCC86A4BA09A5EDB700FE /* Frameworks */,
+				A1ADE5456553941506C7FE28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DF00353C1B86B49B28DE99 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCB2B5393195FF8C0354C7 /* PDFSplitter.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A1ADE5456553941506C7FE28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30361A63820CD608498C0D22 /* SplitPDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87BCC86A4BA09A5EDB700FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49651DF70E1061B62C49EA36 /* PDFKit.framework */,
+				819531A63B6F7CAA58E387C1 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA7199CCDB5DAFDE9A6B351 /* SplitPDF */ = {
+			isa = PBXGroup;
+			children = (
+				38F105CDFAAF89E5B3B9BAAB /* AppDelegate.swift */,
+				97CBE07422DAABA45FD08494 /* Info.plist */,
+				25AFA4E967173E5D608C56AE /* SplitPDF.entitlements */,
+				413E5234F19D2E5ECB690DDD /* SplitPDFApp.swift */,
+			);
+			path = SplitPDF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C83CAB1AF4C81973B698E98D /* SplitPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083EC99EDBA80B02DA69B911 /* Build configuration list for PBXNativeTarget "SplitPDF" */;
+			buildPhases = (
+				43869C32F52CD043BF149B07 /* Sources */,
+				DCEBA7B8023E2CF4967CB905 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitPDF;
+			packageProductDependencies = (
+			);
+			productName = SplitPDF;
+			productReference = 30361A63820CD608498C0D22 /* SplitPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A326AF4ECB9916B417EB63A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C83CAB1AF4C81973B698E98D = {
+						DevelopmentTeam = N8TV6E2M4Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE7B743503FF5137C4FC9982 /* Build configuration list for PBXProject "SplitPDF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 14A33AD827D623A100CAC716;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C83CAB1AF4C81973B698E98D /* SplitPDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43869C32F52CD043BF149B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6B615A2D4DCD6E8A95E9B5 /* AppDelegate.swift in Sources */,
+				5434BEF7E24EA59E194DC864 /* PDFSplitter.swift in Sources */,
+				82AB5BD97874C3E19B2BAF9B /* SplitPDFApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3847046CE8D08F27D9D66004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SplitPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.splitpdf.app;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9571DD4F177957A3456012E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N8TV6E2M4Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C7F92AFC829C49321C1E5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SplitPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.splitpdf.app;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D380A039FBCC72A2BE3940A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N8TV6E2M4Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083EC99EDBA80B02DA69B911 /* Build configuration list for PBXNativeTarget "SplitPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F92AFC829C49321C1E5942 /* Debug */,
+				3847046CE8D08F27D9D66004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE7B743503FF5137C4FC9982 /* Build configuration list for PBXProject "SplitPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D380A039FBCC72A2BE3940A9 /* Debug */,
+				9571DD4F177957A3456012E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A326AF4ECB9916B417EB63A4 /* Project object */;
+}

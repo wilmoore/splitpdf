@@ -1,0 +1,9 @@
+{
+  "lastSequence": 1,
+  "entries": [
+    {
+      "branch": "mvp/splitpdf",
+      "adrs": ["001-use-services-menu-instead-of-finder-sync-extension.md"]
+    }
+  ]
+}

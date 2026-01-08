@@ -12,9 +12,10 @@
       "fingerprint": "spec|spec-001|epic|e001-finder-integration",
       "source": "/pro:spec.import",
       "sourceSpec": "spec-001",
-      "sourceBranch": null,
+      "sourceBranch": "mvp/splitpdf",
       "createdAt": "2026-01-01T00:00:00.000Z",
-      "status": "open"
+      "status": "resolved",
+      "resolvedAt": "2026-01-01T00:00:00.000Z"
     },
     {
       "id": 2,
@@ -27,9 +28,10 @@
       "fingerprint": "spec|spec-001|epic|e002-pdf-extraction",
       "source": "/pro:spec.import",
       "sourceSpec": "spec-001",
-      "sourceBranch": null,
+      "sourceBranch": "mvp/splitpdf",
       "createdAt": "2026-01-01T00:00:00.000Z",
-      "status": "open"
+      "status": "resolved",
+      "resolvedAt": "2026-01-01T00:00:00.000Z"
     },
     {
       "id": 3,
@@ -42,9 +44,10 @@
       "fingerprint": "spec|spec-001|epic|e003-output-management",
       "source": "/pro:spec.import",
       "sourceSpec": "spec-001",
-      "sourceBranch": null,
+      "sourceBranch": "mvp/splitpdf",
       "createdAt": "2026-01-01T00:00:00.000Z",
-      "status": "open"
+      "status": "resolved",
+      "resolvedAt": "2026-01-01T00:00:00.000Z"
     },
     {
       "id": 4,
@@ -87,9 +90,10 @@
       "fingerprint": "spec|spec-001|story|us001-context-menu",
       "source": "/pro:spec.import",
       "sourceSpec": "spec-001",
-      "sourceBranch": null,
+      "sourceBranch": "mvp/splitpdf",
       "createdAt": "2026-01-01T00:00:00.000Z",
-      "status": "open"
+      "status": "resolved",
+      "resolvedAt": "2026-01-01T00:00:00.000Z"
     },
     {
       "id": 7,
@@ -102,9 +106,10 @@
       "fingerprint": "spec|spec-001|story|us002-split-pages",
       "source": "/pro:spec.import",
       "sourceSpec": "spec-001",
-      "sourceBranch": null,
+      "sourceBranch": "mvp/splitpdf",
       "createdAt": "2026-01-01T00:00:00.000Z",
-      "status": "open"
+      "status": "resolved",
+      "resolvedAt": "2026-01-01T00:00:00.000Z"
     },
     {
       "id": 8,
@@ -117,9 +122,10 @@
       "fingerprint": "spec|spec-001|story|us003-output-naming",
       "source": "/pro:spec.import",
       "sourceSpec": "spec-001",
-      "sourceBranch": null,
+      "sourceBranch": "mvp/splitpdf",
       "createdAt": "2026-01-01T00:00:00.000Z",
-      "status": "open"
+      "status": "resolved",
+      "resolvedAt": "2026-01-01T00:00:00.000Z"
     },
     {
       "id": 9,

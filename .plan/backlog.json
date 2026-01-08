@@ -167,7 +167,8 @@
       "source": "/pro:chore",
       "sourceBranch": "chore/rebrand-split-pdf-finder",
       "createdAt": "2026-01-07T00:00:00.000Z",
-      "status": "in-progress"
+      "status": "resolved",
+      "resolvedAt": "2026-01-07T00:00:00.000Z"
     }
   ]
 }

@@ -30,5 +30,23 @@
     <string>Copyright © 2026. All rights reserved.</string>
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict>
+                <key>default</key>
+                <string>Split into Pages</string>
+            </dict>
+            <key>NSMessage</key>
+            <string>splitPDF</string>
+            <key>NSPortName</key>
+            <string>SplitPDF</string>
+            <key>NSSendFileTypes</key>
+            <array>
+                <string>com.adobe.pdf</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>

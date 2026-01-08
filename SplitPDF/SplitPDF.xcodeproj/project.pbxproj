@@ -7,48 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D74BCDB948C40AF398C5BB4 /* PDFSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCB2B5393195FF8C0354C7 /* PDFSplitter.swift */; };
+		1715B609365064E76F376E75 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49651DF70E1061B62C49EA36 /* PDFKit.framework */; };
 		5434BEF7E24EA59E194DC864 /* PDFSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCB2B5393195FF8C0354C7 /* PDFSplitter.swift */; };
+		7C8F42D596C40AECB0FE16E3 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819531A63B6F7CAA58E387C1 /* UserNotifications.framework */; };
 		82AB5BD97874C3E19B2BAF9B /* SplitPDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E5234F19D2E5ECB690DDD /* SplitPDFApp.swift */; };
-		B47859773A42E55519C967B7 /* SplitPDFExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F38789DF29853DB0DF2ECCF /* SplitPDFExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D41720E5BE06C059CB9EC83D /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817AB221BA152465B577548 /* FinderSync.swift */; };
 		FA6B615A2D4DCD6E8A95E9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F105CDFAAF89E5B3B9BAAB /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		89B4D6B88FBFC9212A3A8CFE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A326AF4ECB9916B417EB63A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EAF7CD0F361F653408BF333;
-			remoteInfo = SplitPDFExtension;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		89884009DD8204B6CDBE2174 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				B47859773A42E55519C967B7 /* SplitPDFExtension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		25AFA4E967173E5D608C56AE /* SplitPDF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitPDF.entitlements; sourceTree = "<group>"; };
 		2FBCB2B5393195FF8C0354C7 /* PDFSplitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSplitter.swift; sourceTree = "<group>"; };
 		30361A63820CD608498C0D22 /* SplitPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F105CDFAAF89E5B3B9BAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		413E5234F19D2E5ECB690DDD /* SplitPDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitPDFApp.swift; sourceTree = "<group>"; };
-		6817AB221BA152465B577548 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
-		6F38789DF29853DB0DF2ECCF /* SplitPDFExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SplitPDFExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		49651DF70E1061B62C49EA36 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		819531A63B6F7CAA58E387C1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		97CBE07422DAABA45FD08494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		FADC653DA50C31B4CAF6D2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEBA7B8023E2CF4967CB905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1715B609365064E76F376E75 /* PDFKit.framework in Frameworks */,
+				7C8F42D596C40AECB0FE16E3 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		14A33AD827D623A100CAC716 = {
@@ -56,7 +43,7 @@
 			children = (
 				65DF00353C1B86B49B28DE99 /* Shared */,
 				FEA7199CCDB5DAFDE9A6B351 /* SplitPDF */,
-				71EB56FB1FE6B32D07AFA577 /* SplitPDFExtension */,
+				E87BCC86A4BA09A5EDB700FE /* Frameworks */,
 				A1ADE5456553941506C7FE28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,22 +56,21 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		71EB56FB1FE6B32D07AFA577 /* SplitPDFExtension */ = {
-			isa = PBXGroup;
-			children = (
-				6817AB221BA152465B577548 /* FinderSync.swift */,
-				FADC653DA50C31B4CAF6D2AF /* Info.plist */,
-			);
-			path = SplitPDFExtension;
-			sourceTree = "<group>";
-		};
 		A1ADE5456553941506C7FE28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				30361A63820CD608498C0D22 /* SplitPDF.app */,
-				6F38789DF29853DB0DF2ECCF /* SplitPDFExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E87BCC86A4BA09A5EDB700FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49651DF70E1061B62C49EA36 /* PDFKit.framework */,
+				819531A63B6F7CAA58E387C1 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FEA7199CCDB5DAFDE9A6B351 /* SplitPDF */ = {
@@ -92,6 +78,7 @@
 			children = (
 				38F105CDFAAF89E5B3B9BAAB /* AppDelegate.swift */,
 				97CBE07422DAABA45FD08494 /* Info.plist */,
+				25AFA4E967173E5D608C56AE /* SplitPDF.entitlements */,
 				413E5234F19D2E5ECB690DDD /* SplitPDFApp.swift */,
 			);
 			path = SplitPDF;
@@ -100,34 +87,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2EAF7CD0F361F653408BF333 /* SplitPDFExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1164A7176DF94733686BCF3 /* Build configuration list for PBXNativeTarget "SplitPDFExtension" */;
-			buildPhases = (
-				3CAE776171B5AB9901CBF3CB /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SplitPDFExtension;
-			packageProductDependencies = (
-			);
-			productName = SplitPDFExtension;
-			productReference = 6F38789DF29853DB0DF2ECCF /* SplitPDFExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		C83CAB1AF4C81973B698E98D /* SplitPDF */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 083EC99EDBA80B02DA69B911 /* Build configuration list for PBXNativeTarget "SplitPDF" */;
 			buildPhases = (
 				43869C32F52CD043BF149B07 /* Sources */,
-				89884009DD8204B6CDBE2174 /* Embed Foundation Extensions */,
+				DCEBA7B8023E2CF4967CB905 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6256B34B1F0D345720179AAC /* PBXTargetDependency */,
 			);
 			name = SplitPDF;
 			packageProductDependencies = (
@@ -145,10 +114,8 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					2EAF7CD0F361F653408BF333 = {
-						ProvisioningStyle = Automatic;
-					};
 					C83CAB1AF4C81973B698E98D = {
+						DevelopmentTeam = N8TV6E2M4Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -168,21 +135,11 @@
 			projectRoot = "";
 			targets = (
 				C83CAB1AF4C81973B698E98D /* SplitPDF */,
-				2EAF7CD0F361F653408BF333 /* SplitPDFExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CAE776171B5AB9901CBF3CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D41720E5BE06C059CB9EC83D /* FinderSync.swift in Sources */,
-				1D74BCDB948C40AF398C5BB4 /* PDFSplitter.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		43869C32F52CD043BF149B07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,14 +151,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6256B34B1F0D345720179AAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2EAF7CD0F361F653408BF333 /* SplitPDFExtension */;
-			targetProxy = 89B4D6B88FBFC9212A3A8CFE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3847046CE8D08F27D9D66004 /* Release */ = {
@@ -253,8 +202,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N8TV6E2M4Y;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -275,23 +227,6 @@
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
-		};
-		BE62A7880F94C5DD885E7517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SplitPDFExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.splitpdf.app.extension;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 		C7F92AFC829C49321C1E5942 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -342,8 +277,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N8TV6E2M4Y;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -372,23 +310,6 @@
 			};
 			name = Debug;
 		};
-		F5B07795ED0EF1C705740BC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SplitPDFExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.splitpdf.app.extension;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -397,15 +318,6 @@
 			buildConfigurations = (
 				C7F92AFC829C49321C1E5942 /* Debug */,
 				3847046CE8D08F27D9D66004 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		F1164A7176DF94733686BCF3 /* Build configuration list for PBXNativeTarget "SplitPDFExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE62A7880F94C5DD885E7517 /* Debug */,
-				F5B07795ED0EF1C705740BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -1,0 +1,175 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Design Tokens */
+:root {
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f5f5f7;
+  --color-text: #1d1d1f;
+  --color-text-secondary: #86868b;
+  --color-accent: #0071e3;
+  --color-accent-hover: #0077ed;
+  --color-border: #d2d2d7;
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-size-hero: clamp(40px, 8vw, 56px);
+  --font-size-h2: clamp(28px, 5vw, 40px);
+  --font-size-h3: clamp(20px, 3vw, 24px);
+  --font-size-body: 17px;
+  --font-size-small: 14px;
+  --line-height: 1.5;
+  --line-height-tight: 1.2;
+
+  /* Spacing */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 48px;
+  --space-xl: 80px;
+  --space-2xl: 120px;
+
+  /* Layout */
+  --max-width: 980px;
+  --max-width-narrow: 680px;
+
+  /* Transitions */
+  --transition: 0.2s ease;
+}
+
+/* Base Styles */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: var(--font-size-hero);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+p {
+  color: var(--color-text-secondary);
+}
+
+/* Utility Classes */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.container--narrow {
+  max-width: var(--max-width-narrow);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Section Spacing */
+section {
+  padding: var(--space-xl) 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: var(--space-lg) 0;
+  }
+}
+
+/* Button */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: 12px 24px;
+  font-size: var(--font-size-body);
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color var(--transition), transform var(--transition);
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--color-accent-hover);
+  color: #fff;
+  transform: scale(1.02);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button--large {
+  padding: 16px 32px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.button--secondary {
+  background-color: transparent;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+}
+
+.button--secondary:hover {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+/* Alternate Background */
+.bg-alt {
+  background-color: var(--color-bg-alt);
+}

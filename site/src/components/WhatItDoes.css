@@ -1,0 +1,16 @@
+.what-it-does h2 {
+  margin-bottom: var(--space-md);
+  color: var(--color-text);
+}
+
+.what-it-does__text {
+  font-size: clamp(18px, 3vw, 21px);
+  line-height: 1.6;
+  margin-bottom: var(--space-sm);
+}
+
+.what-it-does__text--emphasis {
+  color: var(--color-text);
+  font-weight: 500;
+  margin-bottom: 0;
+}

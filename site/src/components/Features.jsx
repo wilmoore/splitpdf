@@ -27,7 +27,7 @@ export default function Features() {
   return (
     <section className="features bg-alt">
       <div className="container">
-        <h2 className="text-center">Why Split PDF?</h2>
+        <h2 className="text-center">Why PDF Pages?</h2>
         <div className="features__grid">
           {FEATURES.map((feature) => (
             <div key={feature.title} className="feature">

@@ -1,5 +1,5 @@
 {
-  "lastSequence": 11,
+  "lastSequence": 12,
   "items": [
     {
       "id": 1,
@@ -173,6 +173,18 @@
       "createdAt": "2026-01-07T00:00:00.000Z",
       "status": "resolved",
       "resolvedAt": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "title": "Rebrand to PDF Pages (Finder)",
+      "description": "Rebrand entire project from 'Split PDF (Finder)' to 'PDF Pages (Finder)'. Updates: app name, bundle IDs, GitHub repo name (splitpdf → pdfpages), landing page, README, CNAME (pdfpages.app), Makefile, all references.",
+      "category": "chore",
+      "severity": "medium",
+      "fingerprint": "chore|12|rebrand-pdfpages",
+      "source": "/pro:feature",
+      "sourceBranch": "chore/rebrand-pdfpages",
+      "createdAt": "2026-01-16T08:00:00.000Z",
+      "status": "in-progress"
     }
   ]
 }

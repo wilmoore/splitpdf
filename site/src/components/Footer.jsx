@@ -1,6 +1,6 @@
 import './Footer.css'
 
-const GITHUB_URL = 'https://github.com/wilmoore/splitpdf'
+const GITHUB_URL = 'https://github.com/wilmoore/pdfpages'
 const LINKEDIN_URL = 'https://linkedin.com/in/wilmoore'
 
 export default function Footer() {
@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__content">
           <div className="footer__brand">
-            <span className="footer__name">Split PDF (Finder)</span>
+            <span className="footer__name">PDF Pages (Finder)</span>
             <span className="footer__version">v1.1.0</span>
           </div>
           <div className="footer__links">

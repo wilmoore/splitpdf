@@ -1,6 +1,6 @@
 import './Hero.css'
 
-const DOWNLOAD_URL = 'https://github.com/wilmoore/splitpdf/releases/latest'
+const DOWNLOAD_URL = 'https://github.com/wilmoore/pdfpages/releases/latest'
 
 export default function Hero() {
   return (
@@ -9,12 +9,12 @@ export default function Hero() {
         <div className="hero__icon">
           <img
             src="/assets/app-icon.png"
-            alt="Split PDF app icon"
+            alt="PDF Pages app icon"
             width="128"
             height="128"
           />
         </div>
-        <h1 className="hero__title">Split PDF (Finder)</h1>
+        <h1 className="hero__title">PDF Pages (Finder)</h1>
         <p className="hero__tagline">
           Split any PDF into pages. Right from Finder.
         </p>

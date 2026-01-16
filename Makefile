@@ -1,10 +1,10 @@
-# Split PDF (Finder) - Makefile
+# PDF Pages (Finder) - Makefile
 # Usage: make <target>
 # See 'make help' for available targets
 
 # Repository info
 REPO_OWNER := wilmoore
-REPO_NAME := splitpdf
+REPO_NAME := pdfpages
 REPO_URL := https://github.com/$(REPO_OWNER)/$(REPO_NAME)
 SITE_URL := https://$(REPO_OWNER).github.io/$(REPO_NAME)/
 

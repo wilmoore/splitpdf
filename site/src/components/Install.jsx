@@ -1,11 +1,11 @@
 import './Install.css'
 
-const DOWNLOAD_URL = 'https://github.com/wilmoore/splitpdf/releases/latest'
-const GITHUB_URL = 'https://github.com/wilmoore/splitpdf'
+const DOWNLOAD_URL = 'https://github.com/wilmoore/pdfpages/releases/latest'
+const GITHUB_URL = 'https://github.com/wilmoore/pdfpages'
 
 const STEPS = [
   'Download and open the .dmg file',
-  'Drag Split PDF to your Applications folder',
+  'Drag PDF Pages to your Applications folder',
   'Double-click the app to register the service',
   'Enable in System Settings > Privacy & Security > Extensions > Finder Extensions',
 ]

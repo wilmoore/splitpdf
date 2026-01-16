@@ -1,4 +1,4 @@
-# Split PDF (Finder)
+# PDF Pages (Finder)
 
 Split PDFs into individual pages — directly from Finder.
 
@@ -20,7 +20,7 @@ Split PDFs into individual pages — directly from Finder.
 
 ## Installation
 
-1. Drag `Split PDF (Finder).app` to Applications
+1. Drag `PDF Pages (Finder).app` to Applications
 2. Double-click once to register the Finder service
 3. Enable the service:
    - **System Settings → Keyboard → Keyboard Shortcuts → Services**
@@ -53,8 +53,8 @@ Requires Xcode 15+ and macOS 13+.
 
 ```bash
 # Clone and build
-git clone https://github.com/wilmoore/splitpdf.git
-cd splitpdf/SplitPDF
+git clone https://github.com/wilmoore/pdfpages.git
+cd pdfpages/SplitPDF
 open SplitPDF.xcodeproj
 ```
 

@@ -9,7 +9,7 @@ export default function Privacy() {
         </div>
         <h2>Your Files Stay Private</h2>
         <p className="privacy__text">
-          Split PDF works entirely on your Mac. Your files never leave your machine.
+          PDF Pages works entirely on your Mac. Your files never leave your machine.
         </p>
         <ul className="privacy__list">
           <li>

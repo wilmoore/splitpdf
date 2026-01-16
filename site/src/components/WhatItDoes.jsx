@@ -6,7 +6,7 @@ export default function WhatItDoes() {
       <div className="container container--narrow text-center">
         <h2>What It Does</h2>
         <p className="what-it-does__text">
-          Split PDF (Finder) is a macOS utility that splits a PDF into individual
+          PDF Pages (Finder) is a macOS utility that splits a PDF into individual
           page files directly from Finder using a right-click action.
         </p>
         <p className="what-it-does__text what-it-does__text--emphasis">

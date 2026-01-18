@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="container text-center">
         <div className="hero__icon">
           <img
-            src="/assets/app-icon.png"
+            src="/pdf-pages-icon.png"
             alt="PDF Pages app icon"
             width="128"
             height="128"
